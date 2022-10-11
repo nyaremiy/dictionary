@@ -9,6 +9,7 @@ body {
   background-color: $c-bg;
   line-height: 1.5;
   color: $c-text;
+  height: 100%;
 }
 button {
   letter-spacing: 1.5px;
@@ -22,4 +23,13 @@ button {
   padding: 0 20px;
   margin: 0 auto;
   width: 100%;
+}
+
+.app {
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  height: 100%;
 }

@@ -28,5 +28,15 @@ export const ListWord = [
       countLearn: 0,
       countError: 0
     }
+  },
+  {
+    id: 4,
+    wordEn: ['Car'],
+    wordUa: ['авто', 'автомобіль', 'машина'],
+    statusWord: {
+      level: 0,
+      countLearn: 0,
+      countError: 0
+    }
   }
 ];

@@ -28,21 +28,25 @@ export const MainBox = () => {
   };
 
   const checkWord = () => {
-    word.wordUa.some((item) => {
-      if (inputValue.toLowerCase() === item.toLowerCase()) {
-        setStatus(true);
-        setbtnCheck(false);
-        return;
-      }
-    });
-    setbtnCheck(false);
+    setTimeout(() => {
+      word.wordUa.some((item) => {
+        if (inputValue.toLowerCase() === item.toLowerCase()) {
+          setStatus(true);
+          setbtnCheck(false);
+          return;
+        }
+      });
+      setbtnCheck(false);
+    }, 300);
   };
 
   const btnNextWordHandler = () => {
-    dispatch(setValue(''));
-    mainWordForTranslate();
-    setStatus(false);
-    setbtnCheck(true);
+    setTimeout(() => {
+      dispatch(setValue(''));
+      mainWordForTranslate();
+      setStatus(false);
+      setbtnCheck(true);
+    }, 300);
   };
 
   useEffect(() => {
