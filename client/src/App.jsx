@@ -1,12 +1,10 @@
+import { RegisterForm } from './components';
+
 function App() {
   return (
-    <div className='app font-mono'>
-      <div className='header w-full bg-cyan-900'>
-        <div className='container max-w-full px-4 w-full pt-2 pb-2'>
-          <div className='logo text-3xl tracking-widest text-slate-100 font-medium font-mono'>
-            Dictionary
-          </div>
-        </div>
+    <div className='w-full min-h-screen h-full bg-slate-900 font-serif text-slate-50'>
+      <div className='flex items-center px-4 pt-32 mx-auto max-w-3xl m-full h-full '>
+        <RegisterForm />
       </div>
     </div>
   );

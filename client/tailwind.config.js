@@ -1,13 +1,4 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-    fontFamily: {
-      'body': ['"Open Sans"']
-    },
-    extend: {},
-  },
-  plugins: [],
-}
+  content: ['./src/**/*.{js,jsx,ts,tsx}']
+};
